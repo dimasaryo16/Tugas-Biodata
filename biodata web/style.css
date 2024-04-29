@@ -1,0 +1,71 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c9c9c9; 
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk kesan profesional */
+}
+
+.profile {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.bio {
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk kesan profesional */
+}
+
+.bio h1 {
+    margin: 10px 0; /* Tambahkan ruang atas dan bawah pada judul */
+    font-size: 24px; /* Ukuran huruf yang lebih besar */
+}
+
+.bio p {
+    margin: 5px 0; /* Tambahkan ruang atas dan bawah pada teks paragraf */
+    font-size: 16px; /* Ukuran huruf yang lebih besar */
+    color: #333333; /* Warna teks yang lebih gelap */
+}
+
+.bio ul {
+    padding-left: 20px;
+    margin: 10px 0; /* Tambahkan ruang atas dan bawah pada daftar */
+}
+
+.bio ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.bio ul li a {
+    color: #0066cc; /* Warna tautan yang lebih formal */
+    text-decoration: none;
+    transition: color 0.3s; /* Efek hover untuk tautan */
+}
+
+.bio ul li a:hover {
+    color: #004080; /* Warna tautan saat dihover */
+}
